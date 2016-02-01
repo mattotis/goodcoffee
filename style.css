@@ -6,3 +6,13 @@
   padding-bottom: 30px;
   font-size: 1.2em;
 }
+
+#features {
+  background-color: #A2DED0;
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
