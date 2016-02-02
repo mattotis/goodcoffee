@@ -1,5 +1,8 @@
 <html>
 <head>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
   <title>What time is it?</title>
 
   <!-- Bootstrap CDN -->
@@ -39,6 +42,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
         <li class="active"><a href="#">Comfort<span class="sr-only">(current)</span></a> </li>
+        <li class="active"><a href="#">Mother<span class="sr-only">(current)</span></a> </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">How Dare You</a></li>
@@ -60,7 +64,7 @@
   <header class="jumbotron">
     <div class="container-fluid">
       <h1>It's Coffee-O-Clock</h1>
-      <a href="#" class='btn btn-danger btn-lg'>
+      <a href="#" class='btn btn-danger btn-lg' data-toggle="modal" data-target="#myModal">
         Consume and Be Consumed</a>
     </div>
   </header>
@@ -101,5 +105,47 @@
     </div>
   </div>
 </section>
+
+<footer>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-6">
+      <p>Coffee-O-Clock Inc &copy; 2041</p>
+    </div>
+
+    <div class="col-xs-6 text-right">
+      <!-- social media links -->
+      <ul class="list-inline">
+        <li><a href="#">
+          <i class="fa fa-hourglass-half fa-3x"></i></a></li>
+        <li><a href="#">
+          <i class="fa fa-transgender-alt fa-3x"></i></a></li>
+        <li><a href="#">
+          <i class="fa fa-money fa-3x"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</footer>
+
+<!-- modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">You must obey</h4>
+      </div>
+      <div class="modal-body">
+        Obey the Bean
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Surrender</button>
+        <button type="button" class="btn btn-primary">Defy</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
